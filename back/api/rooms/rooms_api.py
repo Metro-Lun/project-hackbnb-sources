@@ -1,4 +1,4 @@
-from flask import jsonify, Blueprint, request, send_from_directory
+from flask import jsonify, Blueprint, request, send_from_directory, current_app
 from sqlalchemy import text
 from sqlalchemy.orm import joinedload
 from .rooms_models import Room
@@ -37,4 +37,4 @@ def get_room_details(room_id: str):
 
 @rooms_api.route('/<room_id>/picture')
 def send_report(room_id: str):
-   return send_from_directory('pictures', room_id + ".jpg")
+   return send_from_directory(current_app.config['UPLOAD_FOLDER'], f"{room_id}.jpg")
