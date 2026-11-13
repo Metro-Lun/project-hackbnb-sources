@@ -1,0 +1,1296 @@
+Finding:     STRIPE_API_KEY: [1;3;msk_test_51RhVfI2aoAWLbEQqUskEoID6RpBTEXO[0m3hFAmubERuAbcYeWZ18m...
+Secret:      [1;3;msk_test_51RhVfI2aoAWLbEQqUskEoID6RpBTEXO[0m
+RuleID:      stripe-access-token
+Entropy:     4.784184
+File:        docker-compose.yml
+Line:        10
+Commit:      4aec6cd799457718ab012c186fb29bb6fc3adc43
+Author:      Emma Roussel
+Email:       emma.roussel@hackbnb.dev
+Date:        2025-03-19T15:30:25Z
+Fingerprint: 4aec6cd799457718ab012c186fb29bb6fc3adc43:docker-compose.yml:stripe-access-token:10
+
+Finding:     STRIPE_API_KEY: [1;3;msk_test_51RhVfI2aoAWLbEQqUskEoID6RpBTEXO3hFAmubERuAbcYeWZ18m1yTRS9L3m9akdKowxs8lteAbxfIFwhrRiIkho00I...[0m
+Secret:      [1;3;msk_test_51RhVfI2aoAWLbEQqUskEoID6RpBTEXO3hFAmubERuAbcYeWZ18m1yTRS9L3m9akdKowxs8lteAbxfIFwhrRiIkho00I...[0m
+RuleID:      generic-api-key
+Entropy:     5.387560
+File:        docker-compose.yml
+Line:        10
+Commit:      4aec6cd799457718ab012c186fb29bb6fc3adc43
+Author:      Emma Roussel
+Email:       emma.roussel@hackbnb.dev
+Date:        2025-03-19T15:30:25Z
+Fingerprint: 4aec6cd799457718ab012c186fb29bb6fc3adc43:docker-compose.yml:generic-api-key:10
+
+Finding:     stripe.api_key = "[1;3;mrk_test_51RhVfI2aoAWLbEQqd67veWGXyEfUURYFN5oILPW0kVLEMbAHX7jg7581yVSeggp04xRaDFE68JmDZVIDZCNSWE0X008...[0m"
+Secret:      [1;3;mrk_test_51RhVfI2aoAWLbEQqd67veWGXyEfUURYFN5oILPW0kVLEMbAHX7jg7581yVSeggp04xRaDFE68JmDZVIDZCNSWE0X008...[0m
+RuleID:      generic-api-key
+Entropy:     5.453732
+File:        back/services/stripe.py
+Line:        11
+Commit:      ef5503c92960f1e8fa7864945fedd6e7fd178e6c
+Author:      Lucas Bridet
+Email:       lucas.bridet@hackbnb.dev
+Date:        2025-03-24T07:07:55Z
+Fingerprint: ef5503c92960f1e8fa7864945fedd6e7fd178e6c:back/services/stripe.py:generic-api-key:11
+
+Finding:     ...eckout_confirmation_secret=[1;3;m6ae2dd53d7f9208a7e8dbce612412ae11900e34fde461b930e8ce006d197affca0358d8d686d588a6193c789a9f172ddaaf7...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m6ae2dd53d7f9208a7e8dbce612412ae11900e34fde461b930e8ce006d197affca0358d8d686d588a6193c789a9f172ddaaf7...[0m
+RuleID:      generic-api-key
+Entropy:     3.893884
+File:        apache.log
+Line:        149
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:149
+
+Finding:     ...eckout_confirmation_secret=[1;3;m00e77ec3cb338c7b1187dd14c1f824d61d45b149f3fb746a28f78a9901e5f8c3386c2da075313e2e35eda0c0a7fbf1286dd6...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m00e77ec3cb338c7b1187dd14c1f824d61d45b149f3fb746a28f78a9901e5f8c3386c2da075313e2e35eda0c0a7fbf1286dd6...[0m
+RuleID:      generic-api-key
+Entropy:     3.938881
+File:        apache.log
+Line:        177
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:177
+
+Finding:     ...eckout_confirmation_secret=[1;3;m1ad206bc88e5615909c05c48c1fce1ac74964e1a7a419575c059ad837a21f1cfdbc48d3b851a4e0bd11672c66336d0f55923...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m1ad206bc88e5615909c05c48c1fce1ac74964e1a7a419575c059ad837a21f1cfdbc48d3b851a4e0bd11672c66336d0f55923...[0m
+RuleID:      generic-api-key
+Entropy:     3.931234
+File:        apache.log
+Line:        324
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:324
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb61dfd4bc7711c97909f68ca7713371039681207df8bf73119fc487b41f35e35074584180800f1e386a2fd27c20ad906659c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb61dfd4bc7711c97909f68ca7713371039681207df8bf73119fc487b41f35e35074584180800f1e386a2fd27c20ad906659c...[0m
+RuleID:      generic-api-key
+Entropy:     3.920704
+File:        apache.log
+Line:        433
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:433
+
+Finding:     ...eckout_confirmation_secret=[1;3;mc103b92bc1860bfb156c8316bc0e8c7d61c27d63bf5921228e4bcf8dd749eac9c5daa3ee9bbc543e8c9da91d96a86d3e65ec...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mc103b92bc1860bfb156c8316bc0e8c7d61c27d63bf5921228e4bcf8dd749eac9c5daa3ee9bbc543e8c9da91d96a86d3e65ec...[0m
+RuleID:      generic-api-key
+Entropy:     3.895621
+File:        apache.log
+Line:        438
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:438
+
+Finding:     ...eckout_confirmation_secret=[1;3;m6b8d0366eada4782aa567915583427c3749e82b46dfe5092827d35bce1236c7f3b979517d34c80d99dd53d8a3f32c4800063...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m6b8d0366eada4782aa567915583427c3749e82b46dfe5092827d35bce1236c7f3b979517d34c80d99dd53d8a3f32c4800063...[0m
+RuleID:      generic-api-key
+Entropy:     3.918183
+File:        apache.log
+Line:        575
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:575
+
+Finding:     ...eckout_confirmation_secret=[1;3;mfa49b746769868a43f08118998b6f45e54e7f3ac976da5f9ce05fa772fe66a7dd70eb3f5e450ee590285888b59f0e0ee365a...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mfa49b746769868a43f08118998b6f45e54e7f3ac976da5f9ce05fa772fe66a7dd70eb3f5e450ee590285888b59f0e0ee365a...[0m
+RuleID:      generic-api-key
+Entropy:     3.866391
+File:        apache.log
+Line:        616
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:616
+
+Finding:     ...eckout_confirmation_secret=[1;3;m54303cbcf0be1fea4473160a603b33abd97b061f1c7a7d42053e77d53916ac8d7ae1b3b0a743da260060b8db7eadde73f57e...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m54303cbcf0be1fea4473160a603b33abd97b061f1c7a7d42053e77d53916ac8d7ae1b3b0a743da260060b8db7eadde73f57e...[0m
+RuleID:      generic-api-key
+Entropy:     3.872815
+File:        apache.log
+Line:        637
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:637
+
+Finding:     ...eckout_confirmation_secret=[1;3;mf507b375308bf2075c3d634d9bc3675e06a69a950a90fabe33c805cbea59cc606ee329bae3593ac024e2c30f730dbf89329e...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mf507b375308bf2075c3d634d9bc3675e06a69a950a90fabe33c805cbea59cc606ee329bae3593ac024e2c30f730dbf89329e...[0m
+RuleID:      generic-api-key
+Entropy:     3.874055
+File:        apache.log
+Line:        715
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:715
+
+Finding:     ...eckout_confirmation_secret=[1;3;m555c7b8448b0c9210f7b05d43b64350174459bf3cd2fcc74879731cff4df7f2565dfe45f7f0ddf96890f6d2d5fe552938424...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m555c7b8448b0c9210f7b05d43b64350174459bf3cd2fcc74879731cff4df7f2565dfe45f7f0ddf96890f6d2d5fe552938424...[0m
+RuleID:      generic-api-key
+Entropy:     3.827362
+File:        apache.log
+Line:        774
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:774
+
+Finding:     ...eckout_confirmation_secret=[1;3;m8addee6b9faac5fa8091d570b202a813f7968a14c34009542d390e73b03b1df76204807a1c9709fef7c9cdf428cdc23419b1...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m8addee6b9faac5fa8091d570b202a813f7968a14c34009542d390e73b03b1df76204807a1c9709fef7c9cdf428cdc23419b1...[0m
+RuleID:      generic-api-key
+Entropy:     3.940125
+File:        apache.log
+Line:        875
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:875
+
+Finding:     ...eckout_confirmation_secret=[1;3;me2d27edf83e4ac8a7920cf6479ea46ecba4e482b829b259dfd4b6a066c9f75d46255e89fb70a06e2a7a41b2e8abe7acd748a...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me2d27edf83e4ac8a7920cf6479ea46ecba4e482b829b259dfd4b6a066c9f75d46255e89fb70a06e2a7a41b2e8abe7acd748a...[0m
+RuleID:      generic-api-key
+Entropy:     3.888547
+File:        apache.log
+Line:        1011
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1011
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4acdd1241b63133bf63f72b5eb3d1b476a23b216234cb48f3a28be89fd8485516a89dab3e79b8111ae5079c7b68c1525c64c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4acdd1241b63133bf63f72b5eb3d1b476a23b216234cb48f3a28be89fd8485516a89dab3e79b8111ae5079c7b68c1525c64c...[0m
+RuleID:      generic-api-key
+Entropy:     3.908352
+File:        apache.log
+Line:        1100
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1100
+
+Finding:     ...eckout_confirmation_secret=[1;3;md06b2da4a43a7f8f6e33ba618984bdea81e7bda51bd21afca1d5afb1d1c06bdc158e4e9ae03a2237f503d83d2cbd57247e57...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md06b2da4a43a7f8f6e33ba618984bdea81e7bda51bd21afca1d5afb1d1c06bdc158e4e9ae03a2237f503d83d2cbd57247e57...[0m
+RuleID:      generic-api-key
+Entropy:     3.940376
+File:        apache.log
+Line:        1145
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1145
+
+Finding:     ...eckout_confirmation_secret=[1;3;m9e6a7dfa0b531cde446e8bfe6a8fa38b54dc341451087256b4e02b1d2ff12bbaf2825c1006a00212f93d5f9f875feb8be54e...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m9e6a7dfa0b531cde446e8bfe6a8fa38b54dc341451087256b4e02b1d2ff12bbaf2825c1006a00212f93d5f9f875feb8be54e...[0m
+RuleID:      generic-api-key
+Entropy:     3.945897
+File:        apache.log
+Line:        1172
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1172
+
+Finding:     ...eckout_confirmation_secret=[1;3;m760fc09ff889107a5a1e4e88fc0b01ab66a3c3821fe338e1d67cfa44db38ecee5d024ed12c52e1fb8775fa553f3fd1c99ec4...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m760fc09ff889107a5a1e4e88fc0b01ab66a3c3821fe338e1d67cfa44db38ecee5d024ed12c52e1fb8775fa553f3fd1c99ec4...[0m
+RuleID:      generic-api-key
+Entropy:     3.938205
+File:        apache.log
+Line:        1203
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1203
+
+Finding:     ...eckout_confirmation_secret=[1;3;mfc4b390cdacd41e366300e322081528ca1a14ec46c3adb49a34ef38736cbdea3bf6c618f333a3f4a94b600cb5eeb8cc635ee...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mfc4b390cdacd41e366300e322081528ca1a14ec46c3adb49a34ef38736cbdea3bf6c618f333a3f4a94b600cb5eeb8cc635ee...[0m
+RuleID:      generic-api-key
+Entropy:     3.907190
+File:        apache.log
+Line:        1249
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1249
+
+Finding:     ...eckout_confirmation_secret=[1;3;mc82a45c14f2a5b622f70f7ac7f4373287a2c1ce33f7fc17a067fc56066dd993db6eee771d26e29b33d1d35200f9fe99da472...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mc82a45c14f2a5b622f70f7ac7f4373287a2c1ce33f7fc17a067fc56066dd993db6eee771d26e29b33d1d35200f9fe99da472...[0m
+RuleID:      generic-api-key
+Entropy:     3.916447
+File:        apache.log
+Line:        1362
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1362
+
+Finding:     ...eckout_confirmation_secret=[1;3;m45dc68d141f74a3a06f6147c73f5e487a286ed58246304460ba067e7561e2ce307299fb8dbd9e58ec17d36f6f440aceb2146...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m45dc68d141f74a3a06f6147c73f5e487a286ed58246304460ba067e7561e2ce307299fb8dbd9e58ec17d36f6f440aceb2146...[0m
+RuleID:      generic-api-key
+Entropy:     3.909847
+File:        apache.log
+Line:        1376
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1376
+
+Finding:     ...eckout_confirmation_secret=[1;3;m15958c3bc311b14ce739b8cec61a7c6df3176bd3452e9fcafdb4ce61b922fbdeb2f1e3f8b4828edca4c18a90024d1e0e8304...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m15958c3bc311b14ce739b8cec61a7c6df3176bd3452e9fcafdb4ce61b922fbdeb2f1e3f8b4828edca4c18a90024d1e0e8304...[0m
+RuleID:      generic-api-key
+Entropy:     3.933458
+File:        apache.log
+Line:        1380
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1380
+
+Finding:     ...eckout_confirmation_secret=[1;3;meb1afe9f488d6d8f41c6f27129d698495e6cd2f5a448be579f0e513adfad50ac015795d766e1b948aa3cd886ef486fb1588d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;meb1afe9f488d6d8f41c6f27129d698495e6cd2f5a448be579f0e513adfad50ac015795d766e1b948aa3cd886ef486fb1588d...[0m
+RuleID:      generic-api-key
+Entropy:     3.906219
+File:        apache.log
+Line:        1585
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1585
+
+Finding:     ...eckout_confirmation_secret=[1;3;mdbd2068f907aa2309524bc0e420b84847d4a276891eceeaa4b28dfe166b726840d61c93cb5fe7c327e66c0b7b3f52992e06d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mdbd2068f907aa2309524bc0e420b84847d4a276891eceeaa4b28dfe166b726840d61c93cb5fe7c327e66c0b7b3f52992e06d...[0m
+RuleID:      generic-api-key
+Entropy:     3.943955
+File:        apache.log
+Line:        1606
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1606
+
+Finding:     ...eckout_confirmation_secret=[1;3;mbffa5e97b6c243fdd0a5a5a5990d64abaf146990bb1db658b1686c9a9910d5b2a936e684ef90696b351d86b047df7ccd582f...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mbffa5e97b6c243fdd0a5a5a5990d64abaf146990bb1db658b1686c9a9910d5b2a936e684ef90696b351d86b047df7ccd582f...[0m
+RuleID:      generic-api-key
+Entropy:     3.882470
+File:        apache.log
+Line:        1625
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1625
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb34c4756eac498117f22bddeb2b2a76609fcca70d173bcde8d698415955d0e12d0851d7a55c715a7ba43ae405adf4dba8089...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb34c4756eac498117f22bddeb2b2a76609fcca70d173bcde8d698415955d0e12d0851d7a55c715a7ba43ae405adf4dba8089...[0m
+RuleID:      generic-api-key
+Entropy:     3.922048
+File:        apache.log
+Line:        1629
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1629
+
+Finding:     ...eckout_confirmation_secret=[1;3;m866ad033cea155a232d6edd24f84094559a677f60cbf99c30d4fa46466eb51aef84a8665252df4052436cabf3b5673722b49...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m866ad033cea155a232d6edd24f84094559a677f60cbf99c30d4fa46466eb51aef84a8665252df4052436cabf3b5673722b49...[0m
+RuleID:      generic-api-key
+Entropy:     3.921257
+File:        apache.log
+Line:        1745
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1745
+
+Finding:     ...eckout_confirmation_secret=[1;3;m22584817b561576f1ac93ad6c097064511248dfbc586e9717b2ffeb054491f9f315308e1663e05b8146016970b0bec1aa4a9...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m22584817b561576f1ac93ad6c097064511248dfbc586e9717b2ffeb054491f9f315308e1663e05b8146016970b0bec1aa4a9...[0m
+RuleID:      generic-api-key
+Entropy:     3.908527
+File:        apache.log
+Line:        1762
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1762
+
+Finding:     ...eckout_confirmation_secret=[1;3;m5094fd7447568a935fa74d5a49c687c748ca84ed6a67bb55873d9b971e21c2e2c26304b378f5d438148e41441f7e8a6da545...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m5094fd7447568a935fa74d5a49c687c748ca84ed6a67bb55873d9b971e21c2e2c26304b378f5d438148e41441f7e8a6da545...[0m
+RuleID:      generic-api-key
+Entropy:     3.917053
+File:        apache.log
+Line:        1801
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:1801
+
+Finding:     ...eckout_confirmation_secret=[1;3;me5c009c97935c9b28d93d6864bcb97023e7217defd8a065a637436ee08b2b7886a3f8873a8a0fdf409cb4394f8c61d683167...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me5c009c97935c9b28d93d6864bcb97023e7217defd8a065a637436ee08b2b7886a3f8873a8a0fdf409cb4394f8c61d683167...[0m
+RuleID:      generic-api-key
+Entropy:     3.955063
+File:        apache.log
+Line:        8029
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:8029
+
+Finding:     ...eckout_confirmation_secret=[1;3;mc98baabe0137cd21dd3af5f7bcd4267e412e3502170b34345111afd9da2c634939915e868eb6c786d950427678437c7a55cb...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mc98baabe0137cd21dd3af5f7bcd4267e412e3502170b34345111afd9da2c634939915e868eb6c786d950427678437c7a55cb...[0m
+RuleID:      generic-api-key
+Entropy:     3.963651
+File:        apache.log
+Line:        8167
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:8167
+
+Finding:     ...eckout_confirmation_secret=[1;3;md6f97dde745b961c305bc27b42bd51beffdaeeb4cdb82c551d396f0a31bb3a9e14efe607fda9311825068e71b7799e07efee...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md6f97dde745b961c305bc27b42bd51beffdaeeb4cdb82c551d396f0a31bb3a9e14efe607fda9311825068e71b7799e07efee...[0m
+RuleID:      generic-api-key
+Entropy:     3.911347
+File:        apache.log
+Line:        8218
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:8218
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4b397b90152f32e3602310452dd74ca73bd4d4624d8a42d850b9b85f3d53311ff484c648be2b3f3a3aee3bb661b295cf9830...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4b397b90152f32e3602310452dd74ca73bd4d4624d8a42d850b9b85f3d53311ff484c648be2b3f3a3aee3bb661b295cf9830...[0m
+RuleID:      generic-api-key
+Entropy:     3.908933
+File:        apache.log
+Line:        8909
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:8909
+
+Finding:     ...eckout_confirmation_secret=[1;3;m3fb34764e44777b340783d21f3783bca1c370e2a7208227e794cee0ad15fe5975ab74d64148c7f8f333a6080f607df2d8f8b...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m3fb34764e44777b340783d21f3783bca1c370e2a7208227e794cee0ad15fe5975ab74d64148c7f8f333a6080f607df2d8f8b...[0m
+RuleID:      generic-api-key
+Entropy:     3.913611
+File:        apache.log
+Line:        9039
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9039
+
+Finding:     ...eckout_confirmation_secret=[1;3;mcc18e39e7b2d50d182a42f41a51afeadc6d4dd31ae22ecc461dbcc40a7cd66b7f627711642b9466828af6949eb1be1d6979e...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mcc18e39e7b2d50d182a42f41a51afeadc6d4dd31ae22ecc461dbcc40a7cd66b7f627711642b9466828af6949eb1be1d6979e...[0m
+RuleID:      generic-api-key
+Entropy:     3.923360
+File:        apache.log
+Line:        9187
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9187
+
+Finding:     ...eckout_confirmation_secret=[1;3;m83d3f598f2a1c63ed943d1c0e3cd0824382f7d11bf1f618373bf43c1ea6403e03ef3411e6f72f82ee6f227c6ef324ab7a504...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m83d3f598f2a1c63ed943d1c0e3cd0824382f7d11bf1f618373bf43c1ea6403e03ef3411e6f72f82ee6f227c6ef324ab7a504...[0m
+RuleID:      generic-api-key
+Entropy:     3.853310
+File:        apache.log
+Line:        9216
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9216
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb053d873f374081c1a5a83f887d9ba8e633e8e0b79e85fc06e6b6197eb66bef92608d53cf6dbd06d4ba85c5b38b45e1d2b80...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb053d873f374081c1a5a83f887d9ba8e633e8e0b79e85fc06e6b6197eb66bef92608d53cf6dbd06d4ba85c5b38b45e1d2b80...[0m
+RuleID:      generic-api-key
+Entropy:     3.827526
+File:        apache.log
+Line:        9298
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9298
+
+Finding:     ...eckout_confirmation_secret=[1;3;mee027d5e5343dae1709c182af35f0198762f624d0769f238f91baf1f0a95e2bfd83bc1c49deecc533d85881c2873babff534...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mee027d5e5343dae1709c182af35f0198762f624d0769f238f91baf1f0a95e2bfd83bc1c49deecc533d85881c2873babff534...[0m
+RuleID:      generic-api-key
+Entropy:     3.937572
+File:        apache.log
+Line:        9309
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9309
+
+Finding:     ...eckout_confirmation_secret=[1;3;maa2be7ce9504151d50c5673ae1c4232c1e72beb9d653d377ff8cac04da35e5ba1e3c5260e552b9a2539dc7110c4a725501bb...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;maa2be7ce9504151d50c5673ae1c4232c1e72beb9d653d377ff8cac04da35e5ba1e3c5260e552b9a2539dc7110c4a725501bb...[0m
+RuleID:      generic-api-key
+Entropy:     3.902241
+File:        apache.log
+Line:        9442
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9442
+
+Finding:     ...eckout_confirmation_secret=[1;3;m0457c65596c87bb2f1310e96750cf6996b9fa3d2d61f26a635a6462d3698a634525ee2bdae2ca5a11890c775f39735ec0ed8...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m0457c65596c87bb2f1310e96750cf6996b9fa3d2d61f26a635a6462d3698a634525ee2bdae2ca5a11890c775f39735ec0ed8...[0m
+RuleID:      generic-api-key
+Entropy:     3.941154
+File:        apache.log
+Line:        9460
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9460
+
+Finding:     ...eckout_confirmation_secret=[1;3;m14b8242f573ad24af33c68664a0f73b93604b8c2782480c739a7fe96c50e66fb53208cb65ab4e508999620ad72f70b2a30a9...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m14b8242f573ad24af33c68664a0f73b93604b8c2782480c739a7fe96c50e66fb53208cb65ab4e508999620ad72f70b2a30a9...[0m
+RuleID:      generic-api-key
+Entropy:     3.930499
+File:        apache.log
+Line:        9714
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9714
+
+Finding:     ...eckout_confirmation_secret=[1;3;m3c95da321489a7f74a966b003c2be29de67b188d24fcec14cee1db6255d1782dc5a80df46a9cadec67296e2a7a2bd5b80eda...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m3c95da321489a7f74a966b003c2be29de67b188d24fcec14cee1db6255d1782dc5a80df46a9cadec67296e2a7a2bd5b80eda...[0m
+RuleID:      generic-api-key
+Entropy:     3.933153
+File:        apache.log
+Line:        9793
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9793
+
+Finding:     ...eckout_confirmation_secret=[1;3;m6bdbf796444dd51f9d5d3789b9a2e9307b7a868d403cf686bbe820ac93b199cd86448e258d79c5f0f436d99b485032b379a2...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m6bdbf796444dd51f9d5d3789b9a2e9307b7a868d403cf686bbe820ac93b199cd86448e258d79c5f0f436d99b485032b379a2...[0m
+RuleID:      generic-api-key
+Entropy:     3.887721
+File:        apache.log
+Line:        9836
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9836
+
+Finding:     ...eckout_confirmation_secret=[1;3;m222147e7e6ee1b32df372611e98ac607d6dd070e8a527393f658ea0f17fe73e42aa9114014f26157ed8693f33085d7d549e0...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m222147e7e6ee1b32df372611e98ac607d6dd070e8a527393f658ea0f17fe73e42aa9114014f26157ed8693f33085d7d549e0...[0m
+RuleID:      generic-api-key
+Entropy:     3.890956
+File:        apache.log
+Line:        9958
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:9958
+
+Finding:     ...eckout_confirmation_secret=[1;3;mf710e3a5fe355009a0a84b3a76aa210fe6c3107c2067b73336071af5899370f134708bb3ead777c80a3773840de4a44dc32d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mf710e3a5fe355009a0a84b3a76aa210fe6c3107c2067b73336071af5899370f134708bb3ead777c80a3773840de4a44dc32d...[0m
+RuleID:      generic-api-key
+Entropy:     3.852907
+File:        apache.log
+Line:        10030
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10030
+
+Finding:     ...eckout_confirmation_secret=[1;3;me958948586f8c30e31ab1b5e2c8426fb9042297b8e79dbb5bb84044c3aeff9b3433a7752b5094455839f61516b1feee7a489...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me958948586f8c30e31ab1b5e2c8426fb9042297b8e79dbb5bb84044c3aeff9b3433a7752b5094455839f61516b1feee7a489...[0m
+RuleID:      generic-api-key
+Entropy:     3.893960
+File:        apache.log
+Line:        10077
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10077
+
+Finding:     ...eckout_confirmation_secret=[1;3;m591f2ab57686c4edfff9df7ae42d3ffe4f6582c42d86b03ee69ebe8a358aa1a48ee816eae08ab88a67627f6a1f95016629de...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m591f2ab57686c4edfff9df7ae42d3ffe4f6582c42d86b03ee69ebe8a358aa1a48ee816eae08ab88a67627f6a1f95016629de...[0m
+RuleID:      generic-api-key
+Entropy:     3.834963
+File:        apache.log
+Line:        10139
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10139
+
+Finding:     ...eckout_confirmation_secret=[1;3;m100a1ea31494c85b3f1a88cd8b39c751104ce7bba903f05463bc8f525a46380738d27396f73d819408092a849522ea7e4d1c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m100a1ea31494c85b3f1a88cd8b39c751104ce7bba903f05463bc8f525a46380738d27396f73d819408092a849522ea7e4d1c...[0m
+RuleID:      generic-api-key
+Entropy:     3.938973
+File:        apache.log
+Line:        10161
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10161
+
+Finding:     ...eckout_confirmation_secret=[1;3;m33d769f93fd2a47cc9f8f0e34e3790ef865449447233b757d116c706cbcc099bb12d3417a9b64d58b1bdf3d71c2038c20dd1...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m33d769f93fd2a47cc9f8f0e34e3790ef865449447233b757d116c706cbcc099bb12d3417a9b64d58b1bdf3d71c2038c20dd1...[0m
+RuleID:      generic-api-key
+Entropy:     3.905280
+File:        apache.log
+Line:        10336
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10336
+
+Finding:     ...eckout_confirmation_secret=[1;3;m577a45198262ea619cfd387f1ea1b6a7b589e85714fc9cab61102ca2d7b9e828e48d805215bf133e87d85b2a47427d5967a2...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m577a45198262ea619cfd387f1ea1b6a7b589e85714fc9cab61102ca2d7b9e828e48d805215bf133e87d85b2a47427d5967a2...[0m
+RuleID:      generic-api-key
+Entropy:     3.909868
+File:        apache.log
+Line:        10379
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10379
+
+Finding:     ...eckout_confirmation_secret=[1;3;maae046717c9f3063b2bb0c58ab43ecceb57ba50a556bdc09d1fee635b10945e2a71e25ab5ff6cf45bd36be500d0f079c2eb5...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;maae046717c9f3063b2bb0c58ab43ecceb57ba50a556bdc09d1fee635b10945e2a71e25ab5ff6cf45bd36be500d0f079c2eb5...[0m
+RuleID:      generic-api-key
+Entropy:     3.865830
+File:        apache.log
+Line:        10414
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10414
+
+Finding:     ...eckout_confirmation_secret=[1;3;m27e8cd196a20bda88c3162964210172e9312f2fceb6c98b9a0f7333ab5996d525502ef1cf41f0db51e3389162097ff9fecca...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m27e8cd196a20bda88c3162964210172e9312f2fceb6c98b9a0f7333ab5996d525502ef1cf41f0db51e3389162097ff9fecca...[0m
+RuleID:      generic-api-key
+Entropy:     3.941604
+File:        apache.log
+Line:        10534
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10534
+
+Finding:     ...eckout_confirmation_secret=[1;3;mdc51e360a25ead17b3afcb521aea9340acac7e73c29b6de566ef392a0ee58e8dd25e288a9f6ca604554a8bd03c301368dc65...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mdc51e360a25ead17b3afcb521aea9340acac7e73c29b6de566ef392a0ee58e8dd25e288a9f6ca604554a8bd03c301368dc65...[0m
+RuleID:      generic-api-key
+Entropy:     3.897577
+File:        apache.log
+Line:        10668
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10668
+
+Finding:     ...eckout_confirmation_secret=[1;3;m1ec4faa3a403b9a8e966cc12dfca56363bff0db7db6466ede28dfa3443859c325d96e13561b3bd72aae77445a40700372e3b...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m1ec4faa3a403b9a8e966cc12dfca56363bff0db7db6466ede28dfa3443859c325d96e13561b3bd72aae77445a40700372e3b...[0m
+RuleID:      generic-api-key
+Entropy:     3.905869
+File:        apache.log
+Line:        10721
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10721
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb5d7ea30e9904ec335f8d0863ab387d1ba90e03f25e7d409af8e1bddfae20ce2490d0d6ef6c453fec8d6caa12fcf6e2986ab...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb5d7ea30e9904ec335f8d0863ab387d1ba90e03f25e7d409af8e1bddfae20ce2490d0d6ef6c453fec8d6caa12fcf6e2986ab...[0m
+RuleID:      generic-api-key
+Entropy:     3.936882
+File:        apache.log
+Line:        10749
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10749
+
+Finding:     ...eckout_confirmation_secret=[1;3;m64e963a3a83ea183b533c678e62efdc9a59cee955a273aee91f186edb43b3a74bddf5b3f0367a8d6ed318880e8b7099c257d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m64e963a3a83ea183b533c678e62efdc9a59cee955a273aee91f186edb43b3a74bddf5b3f0367a8d6ed318880e8b7099c257d...[0m
+RuleID:      generic-api-key
+Entropy:     3.907844
+File:        apache.log
+Line:        10755
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10755
+
+Finding:     ...eckout_confirmation_secret=[1;3;me88588c78726ba83fca721a0551c05e1a03c6ec078c5cdfc2e2760ca48165c41ba73635ce8a3029fca9edc536d291022b555...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me88588c78726ba83fca721a0551c05e1a03c6ec078c5cdfc2e2760ca48165c41ba73635ce8a3029fca9edc536d291022b555...[0m
+RuleID:      generic-api-key
+Entropy:     3.830499
+File:        apache.log
+Line:        10816
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10816
+
+Finding:     ...eckout_confirmation_secret=[1;3;m86fc9e2fabe9f10aea42d87826cb48b4c80f41e18c1193894ee4f3b94a693ee49a4d448efb35aec3fb8d4cf5bd6c4b65a81c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m86fc9e2fabe9f10aea42d87826cb48b4c80f41e18c1193894ee4f3b94a693ee49a4d448efb35aec3fb8d4cf5bd6c4b65a81c...[0m
+RuleID:      generic-api-key
+Entropy:     3.879808
+File:        apache.log
+Line:        10874
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10874
+
+Finding:     ...eckout_confirmation_secret=[1;3;m49bf19bb6c3ed036c2e6f462f100d88403a5be30476e54237e1ae1b934e8db7ed993523a82af1547ffe0fce429d5ec590b9c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m49bf19bb6c3ed036c2e6f462f100d88403a5be30476e54237e1ae1b934e8db7ed993523a82af1547ffe0fce429d5ec590b9c...[0m
+RuleID:      generic-api-key
+Entropy:     3.887361
+File:        apache.log
+Line:        10878
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10878
+
+Finding:     ...eckout_confirmation_secret=[1;3;m21922a4a24e3ff95a5a728ec34ea7b5af3aad685a595ce7462d9d3864c19613a05e0b1ca386f64caada29840cbb1853ce7e0...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m21922a4a24e3ff95a5a728ec34ea7b5af3aad685a595ce7462d9d3864c19613a05e0b1ca386f64caada29840cbb1853ce7e0...[0m
+RuleID:      generic-api-key
+Entropy:     3.916163
+File:        apache.log
+Line:        10917
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:10917
+
+Finding:     ...eckout_confirmation_secret=[1;3;m54b5c5ee44f70be171d9e361e084eba2a613129f420026413b13bd51776f034d3292945e95a892d20bcc328c147f29ddacc6...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m54b5c5ee44f70be171d9e361e084eba2a613129f420026413b13bd51776f034d3292945e95a892d20bcc328c147f29ddacc6...[0m
+RuleID:      generic-api-key
+Entropy:     3.933342
+File:        apache.log
+Line:        11016
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11016
+
+Finding:     ...eckout_confirmation_secret=[1;3;m38f4ec2137f9a9cbe0552b77c53cc326d92cccf84d008619103a90a408db3ca87fda490031f6fae726590bb4de900bda0764...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m38f4ec2137f9a9cbe0552b77c53cc326d92cccf84d008619103a90a408db3ca87fda490031f6fae726590bb4de900bda0764...[0m
+RuleID:      generic-api-key
+Entropy:     3.943268
+File:        apache.log
+Line:        11074
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11074
+
+Finding:     ...eckout_confirmation_secret=[1;3;md1e811a9fc3de68755728080fe30a10dfd695c1f3cbfc89c5abc66bda02fa6cade71ff1945918fffb5495213a095f524376f...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md1e811a9fc3de68755728080fe30a10dfd695c1f3cbfc89c5abc66bda02fa6cade71ff1945918fffb5495213a095f524376f...[0m
+RuleID:      generic-api-key
+Entropy:     3.920080
+File:        apache.log
+Line:        11078
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11078
+
+Finding:     ...eckout_confirmation_secret=[1;3;md7a5ba62c6553737767c20b55e92a10905ebeea937c7725878912f66a8c58ce2162b2dce7acaa7c2deb34ce0a82cf7e72a37...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md7a5ba62c6553737767c20b55e92a10905ebeea937c7725878912f66a8c58ce2162b2dce7acaa7c2deb34ce0a82cf7e72a37...[0m
+RuleID:      generic-api-key
+Entropy:     3.872481
+File:        apache.log
+Line:        11140
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11140
+
+Finding:     ...eckout_confirmation_secret=[1;3;mfb50324b773b71a7d9e5e12c675885ad790f771cd1068bb7f7084b83ece7dd6c7b1ee0f20f89bbab69247ff2ac34262301f9...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mfb50324b773b71a7d9e5e12c675885ad790f771cd1068bb7f7084b83ece7dd6c7b1ee0f20f89bbab69247ff2ac34262301f9...[0m
+RuleID:      generic-api-key
+Entropy:     3.921460
+File:        apache.log
+Line:        11159
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11159
+
+Finding:     ...eckout_confirmation_secret=[1;3;m56115bda8345c1a84076e6035fbdfb77949588d65814b8196a3a358b5dcf8c58047cc8cb40d945a411da6c2de1a9a675b728...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m56115bda8345c1a84076e6035fbdfb77949588d65814b8196a3a358b5dcf8c58047cc8cb40d945a411da6c2de1a9a675b728...[0m
+RuleID:      generic-api-key
+Entropy:     3.897102
+File:        apache.log
+Line:        11212
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11212
+
+Finding:     ...eckout_confirmation_secret=[1;3;md5711c33c460d58c5704713d993209a7c759902cd382cb18db21de8589bca30add05fecaf88a1d4b2917f6061c071b3dfc75...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md5711c33c460d58c5704713d993209a7c759902cd382cb18db21de8589bca30add05fecaf88a1d4b2917f6061c071b3dfc75...[0m
+RuleID:      generic-api-key
+Entropy:     3.883941
+File:        apache.log
+Line:        11263
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11263
+
+Finding:     ...eckout_confirmation_secret=[1;3;mba2a4d5e0926f320e92445ada277d86b6b7641685f717b9e9253a56f26d2c250ff7be596c7470e98b38cba73a93cec5a3e17...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mba2a4d5e0926f320e92445ada277d86b6b7641685f717b9e9253a56f26d2c250ff7be596c7470e98b38cba73a93cec5a3e17...[0m
+RuleID:      generic-api-key
+Entropy:     3.922439
+File:        apache.log
+Line:        11358
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11358
+
+Finding:     ...eckout_confirmation_secret=[1;3;mcc3a1cc84a893575a2d177f944f0be697023e4d367f60560dc4e5de033ffa1ec5d976cc70cb55af2547ea40178634dbe40f6...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mcc3a1cc84a893575a2d177f944f0be697023e4d367f60560dc4e5de033ffa1ec5d976cc70cb55af2547ea40178634dbe40f6...[0m
+RuleID:      generic-api-key
+Entropy:     3.939831
+File:        apache.log
+Line:        11439
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11439
+
+Finding:     ...eckout_confirmation_secret=[1;3;me3e64a36ce7eb555d85c2b311053fbab9234ed573e1be4bd934d77fe17c3b619dc61698fd459d3cab64a049df017758c01d7...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me3e64a36ce7eb555d85c2b311053fbab9234ed573e1be4bd934d77fe17c3b619dc61698fd459d3cab64a049df017758c01d7...[0m
+RuleID:      generic-api-key
+Entropy:     3.923049
+File:        apache.log
+Line:        11448
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11448
+
+Finding:     ...eckout_confirmation_secret=[1;3;m8b2e99611614fdd0289c4845bcdf14186921207d028ebe03a0392cedd0adfb1d59ae275e56f81b977cbeb56cd801d333866c...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m8b2e99611614fdd0289c4845bcdf14186921207d028ebe03a0392cedd0adfb1d59ae275e56f81b977cbeb56cd801d333866c...[0m
+RuleID:      generic-api-key
+Entropy:     3.929006
+File:        apache.log
+Line:        11484
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11484
+
+Finding:     ...eckout_confirmation_secret=[1;3;m0d1cef4cb12b64b2810235b1873697b9196fb79ae51306b2384cf1dc41971a20fe25d9a059c834675563a944705d72dd020d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m0d1cef4cb12b64b2810235b1873697b9196fb79ae51306b2384cf1dc41971a20fe25d9a059c834675563a944705d72dd020d...[0m
+RuleID:      generic-api-key
+Entropy:     3.968211
+File:        apache.log
+Line:        11646
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11646
+
+Finding:     ...eckout_confirmation_secret=[1;3;mbdd171101704d20b44f0f197aa8d871121fc9f0cf3a3ac1a20eaf10dbc0f42385b154bb2cfb2ed2ab8444063b6f9fbb516b5...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mbdd171101704d20b44f0f197aa8d871121fc9f0cf3a3ac1a20eaf10dbc0f42385b154bb2cfb2ed2ab8444063b6f9fbb516b5...[0m
+RuleID:      generic-api-key
+Entropy:     3.868534
+File:        apache.log
+Line:        11726
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11726
+
+Finding:     ...eckout_confirmation_secret=[1;3;m98eb2b0e5fb9badf16cb437c5380078bdd66df0bb3ce1b426e85278caa9909fa53aea4696658be5303185b9df8e9b41c7188...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m98eb2b0e5fb9badf16cb437c5380078bdd66df0bb3ce1b426e85278caa9909fa53aea4696658be5303185b9df8e9b41c7188...[0m
+RuleID:      generic-api-key
+Entropy:     3.912469
+File:        apache.log
+Line:        11730
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11730
+
+Finding:     ...eckout_confirmation_secret=[1;3;m87782f88c48eb1b94067a05ac2af0c0b5a69bd2209c7e05a048b27b8164d91e7d33df6c276f787b669d03115fcbf8373a501...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m87782f88c48eb1b94067a05ac2af0c0b5a69bd2209c7e05a048b27b8164d91e7d33df6c276f787b669d03115fcbf8373a501...[0m
+RuleID:      generic-api-key
+Entropy:     3.972631
+File:        apache.log
+Line:        11749
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11749
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb241f5ea3d9416f6b03400d7f3bdbbb509d93f32da7871063812fc25d3048c1884a17a709f983449ac96827fc48c76d7e101...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb241f5ea3d9416f6b03400d7f3bdbbb509d93f32da7871063812fc25d3048c1884a17a709f983449ac96827fc48c76d7e101...[0m
+RuleID:      generic-api-key
+Entropy:     3.930234
+File:        apache.log
+Line:        11835
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11835
+
+Finding:     ...eckout_confirmation_secret=[1;3;md150837c953df92be173d2140be3b5342aef0f5fdf1485fb02417042d01bf8cf28275234ecf9b180f6b4af0a268ec6d3feae...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md150837c953df92be173d2140be3b5342aef0f5fdf1485fb02417042d01bf8cf28275234ecf9b180f6b4af0a268ec6d3feae...[0m
+RuleID:      generic-api-key
+Entropy:     3.924479
+File:        apache.log
+Line:        11851
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11851
+
+Finding:     ...eckout_confirmation_secret=[1;3;m8c8273fe863960a330d83de80d97c18b349a0db251c1740307fb298088cf6fd112387ea1488639609044c47fdf08ea1a1942...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m8c8273fe863960a330d83de80d97c18b349a0db251c1740307fb298088cf6fd112387ea1488639609044c47fdf08ea1a1942...[0m
+RuleID:      generic-api-key
+Entropy:     3.860081
+File:        apache.log
+Line:        11855
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:11855
+
+Finding:     ...eckout_confirmation_secret=[1;3;m3d7cae29966251d70af778c10070c93e111b1fcfc07de7e427cdbf82d4301ddb8dfe2cb2e8b0648506490c6867b20b07e9b5...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m3d7cae29966251d70af778c10070c93e111b1fcfc07de7e427cdbf82d4301ddb8dfe2cb2e8b0648506490c6867b20b07e9b5...[0m
+RuleID:      generic-api-key
+Entropy:     3.894819
+File:        apache.log
+Line:        12080
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12080
+
+Finding:     ...eckout_confirmation_secret=[1;3;m13ef73b0344f570085029505f546e17401ea5358bc0d8c05c4101fed0a110b676b928b41f23bca5cf1e1b93bd8ae7816c117...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m13ef73b0344f570085029505f546e17401ea5358bc0d8c05c4101fed0a110b676b928b41f23bca5cf1e1b93bd8ae7816c117...[0m
+RuleID:      generic-api-key
+Entropy:     3.861684
+File:        apache.log
+Line:        12096
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12096
+
+Finding:     ...eckout_confirmation_secret=[1;3;m90dd19447b202545de1cefd46f46eab3f37b17a9d31709c5933865862b7d917a23f25a5ca6c1a17b0150c442e7b1258fa21a...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m90dd19447b202545de1cefd46f46eab3f37b17a9d31709c5933865862b7d917a23f25a5ca6c1a17b0150c442e7b1258fa21a...[0m
+RuleID:      generic-api-key
+Entropy:     3.925728
+File:        apache.log
+Line:        12110
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12110
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4f81dce43d765456122fe26c414e96f675d06d67202e4275c3b5ccae7c24ceb1b95b1563c446112ce8463cf5f9951ad7be4a...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4f81dce43d765456122fe26c414e96f675d06d67202e4275c3b5ccae7c24ceb1b95b1563c446112ce8463cf5f9951ad7be4a...[0m
+RuleID:      generic-api-key
+Entropy:     3.883237
+File:        apache.log
+Line:        12246
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12246
+
+Finding:     ...eckout_confirmation_secret=[1;3;m63070c439cb834173b81d4fd6d14f4822747c9c4d5818c025df91a7d14127ffaaf25ae48276168e2f9f99f363036c45f90d6...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m63070c439cb834173b81d4fd6d14f4822747c9c4d5818c025df91a7d14127ffaaf25ae48276168e2f9f99f363036c45f90d6...[0m
+RuleID:      generic-api-key
+Entropy:     3.904307
+File:        apache.log
+Line:        12296
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12296
+
+Finding:     ...eckout_confirmation_secret=[1;3;mbef80b7ce802ac7cfcbdd64875e4de7677d2728967b164b2b033483402e97efec6094a346f82e72aa5fcf58594666ec7d6e0...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mbef80b7ce802ac7cfcbdd64875e4de7677d2728967b164b2b033483402e97efec6094a346f82e72aa5fcf58594666ec7d6e0...[0m
+RuleID:      generic-api-key
+Entropy:     3.912863
+File:        apache.log
+Line:        12453
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12453
+
+Finding:     ...eckout_confirmation_secret=[1;3;mcb3390937d7971e93697135ae2e175463f592fe3f3f9b2cb6b84732794be62f3e04af2dc0df799708611d5e863ea6b12ee8e...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mcb3390937d7971e93697135ae2e175463f592fe3f3f9b2cb6b84732794be62f3e04af2dc0df799708611d5e863ea6b12ee8e...[0m
+RuleID:      generic-api-key
+Entropy:     3.935553
+File:        apache.log
+Line:        12471
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12471
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4fed33ff552dbf9bef2d1b81791cb67a1f9bdd1728c0d8dbbdd94bfb8ab4e7c5d5bbecdc5663d547d96ac1bff968798ba2b7...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4fed33ff552dbf9bef2d1b81791cb67a1f9bdd1728c0d8dbbdd94bfb8ab4e7c5d5bbecdc5663d547d96ac1bff968798ba2b7...[0m
+RuleID:      generic-api-key
+Entropy:     3.885038
+File:        apache.log
+Line:        12546
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12546
+
+Finding:     ...eckout_confirmation_secret=[1;3;m624739c6b7673bf9eecbfadd1afbb6940f7ffb4045853f266eabe20c324802107d91cd9b2e7faa56c62042cf37a4b4d2562b...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m624739c6b7673bf9eecbfadd1afbb6940f7ffb4045853f266eabe20c324802107d91cd9b2e7faa56c62042cf37a4b4d2562b...[0m
+RuleID:      generic-api-key
+Entropy:     3.940513
+File:        apache.log
+Line:        12569
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12569
+
+Finding:     ...eckout_confirmation_secret=[1;3;m44e4af54ed7951f1c2daf94d926811b628d1c8fb6b97d5bd986b39e1ea46b344eb9adb5679104dae336fe6311007020228f1...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m44e4af54ed7951f1c2daf94d926811b628d1c8fb6b97d5bd986b39e1ea46b344eb9adb5679104dae336fe6311007020228f1...[0m
+RuleID:      generic-api-key
+Entropy:     3.924918
+File:        apache.log
+Line:        12610
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12610
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4fe4725f0b258bf1b89f0dc24451af10fadd6f639692449305f26dd63897a09866d20f4c937a6638022aec94a26e1ed3400f...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4fe4725f0b258bf1b89f0dc24451af10fadd6f639692449305f26dd63897a09866d20f4c937a6638022aec94a26e1ed3400f...[0m
+RuleID:      generic-api-key
+Entropy:     3.893914
+File:        apache.log
+Line:        12641
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12641
+
+Finding:     ...eckout_confirmation_secret=[1;3;m4ee0fba042987b5b5f27bcada8d48265ff0e2f8765224ff6cb67143c950ea730fbbbe1e7e8998e733534dc74f39b1cc67b16...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m4ee0fba042987b5b5f27bcada8d48265ff0e2f8765224ff6cb67143c950ea730fbbbe1e7e8998e733534dc74f39b1cc67b16...[0m
+RuleID:      generic-api-key
+Entropy:     3.931664
+File:        apache.log
+Line:        12726
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12726
+
+Finding:     ...eckout_confirmation_secret=[1;3;m5a9a5ddc74b3cca3d70d415978c8cf116cefa17237e387259ecf1147523999ea1392acfa6adcf2cdbfff47beecb7b3465be1...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m5a9a5ddc74b3cca3d70d415978c8cf116cefa17237e387259ecf1147523999ea1392acfa6adcf2cdbfff47beecb7b3465be1...[0m
+RuleID:      generic-api-key
+Entropy:     3.871613
+File:        apache.log
+Line:        12763
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12763
+
+Finding:     ...eckout_confirmation_secret=[1;3;m6d606e91629221daef1ba1d6dd46397913a6de1dc0151202488cf369e258875d94a12156c8a399d7275e3ddcf0cd2e6e5782...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m6d606e91629221daef1ba1d6dd46397913a6de1dc0151202488cf369e258875d94a12156c8a399d7275e3ddcf0cd2e6e5782...[0m
+RuleID:      generic-api-key
+Entropy:     3.897281
+File:        apache.log
+Line:        12769
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12769
+
+Finding:     ...eckout_confirmation_secret=[1;3;m424cce954ae3d23041f99134c4e82ebd491de894b0963ebebed4b300bbdff0960f999c86bf4a31d29463de18e41cbd8d5d10...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m424cce954ae3d23041f99134c4e82ebd491de894b0963ebebed4b300bbdff0960f999c86bf4a31d29463de18e41cbd8d5d10...[0m
+RuleID:      generic-api-key
+Entropy:     3.857876
+File:        apache.log
+Line:        12835
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12835
+
+Finding:     ...eckout_confirmation_secret=[1;3;md3f3ed2a9e7d97ae6762705aa4d892e316e45896746767c039e0bca63304b4c405d897abbb30d5ca44dc923602240e994747...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;md3f3ed2a9e7d97ae6762705aa4d892e316e45896746767c039e0bca63304b4c405d897abbb30d5ca44dc923602240e994747...[0m
+RuleID:      generic-api-key
+Entropy:     3.845427
+File:        apache.log
+Line:        12854
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:12854
+
+Finding:     ...eckout_confirmation_secret=[1;3;m53a1c67c97cdb0fb7ea8909d02244645760619af53ca8961922b8d341787376afc6af33d79c1cfb27c92170fa3b745a09212...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m53a1c67c97cdb0fb7ea8909d02244645760619af53ca8961922b8d341787376afc6af33d79c1cfb27c92170fa3b745a09212...[0m
+RuleID:      generic-api-key
+Entropy:     3.904287
+File:        apache.log
+Line:        13015
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13015
+
+Finding:     ...eckout_confirmation_secret=[1;3;ma4e8a3a67838202b81b81d7e56b4e4846879a0ced25400b18451d7354e61f8f2d1f3cfe0343325611762c68456c595150974...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;ma4e8a3a67838202b81b81d7e56b4e4846879a0ced25400b18451d7354e61f8f2d1f3cfe0343325611762c68456c595150974...[0m
+RuleID:      generic-api-key
+Entropy:     3.934623
+File:        apache.log
+Line:        13036
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13036
+
+Finding:     ...eckout_confirmation_secret=[1;3;me4f1dc4904f9494f07cdc932922725564377cfbfb4747fa3e68f32f08b4e34dfcee92aabc1384a99ec7133917df4b9afebcc...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;me4f1dc4904f9494f07cdc932922725564377cfbfb4747fa3e68f32f08b4e34dfcee92aabc1384a99ec7133917df4b9afebcc...[0m
+RuleID:      generic-api-key
+Entropy:     3.887599
+File:        apache.log
+Line:        13127
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13127
+
+Finding:     ...eckout_confirmation_secret=[1;3;m311237b1604a56d5e8d54d21de7a045a6125113c626647242e47d06f013f90b7be6597a76aac314c0f55fd7763b365c23736...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m311237b1604a56d5e8d54d21de7a045a6125113c626647242e47d06f013f90b7be6597a76aac314c0f55fd7763b365c23736...[0m
+RuleID:      generic-api-key
+Entropy:     3.893377
+File:        apache.log
+Line:        13194
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13194
+
+Finding:     ...eckout_confirmation_secret=[1;3;m23113d6163177a82087c88c678b4950a3116c0ee8e092df45525427ae3ab192a3e1e8d99a1a847eaf1cce28045b13595b03d...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m23113d6163177a82087c88c678b4950a3116c0ee8e092df45525427ae3ab192a3e1e8d99a1a847eaf1cce28045b13595b03d...[0m
+RuleID:      generic-api-key
+Entropy:     3.938023
+File:        apache.log
+Line:        13326
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13326
+
+Finding:     ...eckout_confirmation_secret=[1;3;mb67daef8def68cb86520b08ceb62b4e0c062fde20979d580526964dca6a747c485886a589c0c9b51b2a2d5d8dd4da9085329...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mb67daef8def68cb86520b08ceb62b4e0c062fde20979d580526964dca6a747c485886a589c0c9b51b2a2d5d8dd4da9085329...[0m
+RuleID:      generic-api-key
+Entropy:     3.873489
+File:        apache.log
+Line:        13368
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13368
+
+Finding:     ...eckout_confirmation_secret=[1;3;mfde28ab7e655bc7f922a8d639f612a16337f100547f372e7abe2f804f5f1d9e1ac91ccbff0b6eedb88a546321e8fe1b70a39...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mfde28ab7e655bc7f922a8d639f612a16337f100547f372e7abe2f804f5f1d9e1ac91ccbff0b6eedb88a546321e8fe1b70a39...[0m
+RuleID:      generic-api-key
+Entropy:     3.943629
+File:        apache.log
+Line:        13468
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13468
+
+Finding:     ...eckout_confirmation_secret=[1;3;m0dcabbecb6cb1b4537c56a16585e562306c6f540cf3762508e6dc35799c1c2fa4a1cba6ffc33c6f91b3c1441fca7b780a288...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m0dcabbecb6cb1b4537c56a16585e562306c6f540cf3762508e6dc35799c1c2fa4a1cba6ffc33c6f91b3c1441fca7b780a288...[0m
+RuleID:      generic-api-key
+Entropy:     3.925222
+File:        apache.log
+Line:        13494
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13494
+
+Finding:     ...eckout_confirmation_secret=[1;3;m43b64136b1778f76fa0a9b0c3ecc89b3362c3543a222f31fb9870ab61e59fe516367ffa2f6514a0548d079f443e5f3880e22...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m43b64136b1778f76fa0a9b0c3ecc89b3362c3543a222f31fb9870ab61e59fe516367ffa2f6514a0548d079f443e5f3880e22...[0m
+RuleID:      generic-api-key
+Entropy:     3.936728
+File:        apache.log
+Line:        13570
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13570
+
+Finding:     ...eckout_confirmation_secret=[1;3;mf43ede2757f0fd93fac8df3f2a80afc462bebd7900bb5ec915b503086f99c3dbd337b23b910275a969ff7e22c597f401be06...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mf43ede2757f0fd93fac8df3f2a80afc462bebd7900bb5ec915b503086f99c3dbd337b23b910275a969ff7e22c597f401be06...[0m
+RuleID:      generic-api-key
+Entropy:     3.883169
+File:        apache.log
+Line:        13735
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13735
+
+Finding:     ...eckout_confirmation_secret=[1;3;m83eeb90e3e99326573ee0adec000c1dcaea73c0e684fe89f86ce37f040a6b27fa1a6b8dc779ca7eef3d3d50ba0a81e774c92...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m83eeb90e3e99326573ee0adec000c1dcaea73c0e684fe89f86ce37f040a6b27fa1a6b8dc779ca7eef3d3d50ba0a81e774c92...[0m
+RuleID:      generic-api-key
+Entropy:     3.878683
+File:        apache.log
+Line:        13828
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13828
+
+Finding:     ...eckout_confirmation_secret=[1;3;mdb958e46935ac4250c7acbee00dd3bef09d74a105d8412b26f3b8b4706e853df6261a88d0475132be6e2acddec327a2ca6f5...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;mdb958e46935ac4250c7acbee00dd3bef09d74a105d8412b26f3b8b4706e853df6261a88d0475132be6e2acddec327a2ca6f5...[0m
+RuleID:      generic-api-key
+Entropy:     3.952994
+File:        apache.log
+Line:        13866
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13866
+
+Finding:     ...eckout_confirmation_secret=[1;3;m9fae0b86feaeca345bf80730281d12835f158ca7dea6a7c45927f1fa3ae0f843e58f34ece21b69cd59d78218d2bb141d3022...[0m HTTP/1.1" 200 616 "...
+Secret:      [1;3;m9fae0b86feaeca345bf80730281d12835f158ca7dea6a7c45927f1fa3ae0f843e58f34ece21b69cd59d78218d2bb141d3022...[0m
+RuleID:      generic-api-key
+Entropy:     3.945118
+File:        apache.log
+Line:        13870
+Commit:      e211989b4b7d21b38d959901108c560ee4de6e64
+Author:      Pierre
+Email:       pierreavn@proton.me
+Date:        2026-11-09T13:29:01Z
+Fingerprint: e211989b4b7d21b38d959901108c560ee4de6e64:apache.log:generic-api-key:13870
+
