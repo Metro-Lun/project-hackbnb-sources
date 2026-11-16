@@ -1,3 +1,4 @@
+from config import IS_PROD
 from flask import Flask
 from flask_cors import CORS
 from database.init import db
@@ -37,6 +38,14 @@ app.register_blueprint(uploads_api, url_prefix='/uploads')
 def welcome():
    return "Welcome on API"
 
+@app.after_request
+def add_security_headers(res) :
+   # Gestion HSTS
+   if IS_PROD :
+      res.headers["Strict-Transport-Security"] = "max-age=31536000"
+
+   res.headers["Content-Security-Policy"] = "default-src 'self'; img-src 'self'; script-src 'self'"
+   res.headers["X-Frame-Options"] = "DENY"
 
 if __name__ == '__main__':
    app.run(

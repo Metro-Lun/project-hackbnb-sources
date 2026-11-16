@@ -2,8 +2,11 @@ from flask import jsonify, Blueprint, request
 from database.init import db
 from api.users.users_models import User
 
-auth_api = Blueprint('auth', __name__)
+import jwt
+from datetime import datetime, timedelta, timezone
+from config import IS_PROD, JWT_SECRET, JWT_ALGORITHM, JWT_TTL
 
+auth_api = Blueprint('auth', __name__)
 
 @auth_api.route('/login', methods=['POST'])
 def login():
@@ -21,8 +24,22 @@ def login():
     if not user.is_valid_password(request.json["password"]):
         return {'error': 'Invalid password'}, 401
 
-    return jsonify({})
+    res = jsonify({})
 
+    now = datetime.now(timezone.utc)
+    token = jwt.encode(
+        {
+            "sub": str(user.id),
+            "iat": now,
+            "exp": now + timedelta(seconds=JWT_TTL),
+        },
+        JWT_SECRET,
+        JWT_ALGORITHM
+    )
+
+    res.set_cookie("token", token, httponly=True, secure=IS_PROD, samesite="Strict")
+
+    return res
 
 @auth_api.route('/register', methods=['POST'])
 def create_account():
@@ -50,3 +67,10 @@ def create_account():
     db.session.commit()
 
     return jsonify({})
+
+@auth_api.route("/logout", methods=["POST"])
+def logout():
+    res = jsonify({})
+    res.delete_cookie("token")
+    return res
+

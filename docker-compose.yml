@@ -6,8 +6,10 @@ services:
     volumes:
       - ./back:/app
     environment:
-      APP_ORIGIN_HOST: http://localhost:9000
+      APP_ORIGIN_HOST: ${APP_ORIGIN_HOST}
       STRIPE_API_KEY: ${STRIPE_API_KEY}
+      APP_ENV: ${APP_ENV}
+      JWT_SECRET: ${JWT_SECRET}
 
   front:
     image: node:22

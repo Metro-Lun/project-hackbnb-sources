@@ -4,7 +4,6 @@ import string
 import random
 from datetime import date
 from flask import jsonify, Blueprint, request
-
 from database.init import db
 from api.rooms.rooms_models import Room
 from services.stripe import create_checkout, get_checkout_lines
@@ -126,6 +125,7 @@ def new_booking():
 
 
 @bookings_api.route('/<reference>/confirm-checkout', methods=['POST'])
+@login_required
 def confirm_booking_checkout(reference: str):
     """
     Confirm checkout payment for a booking

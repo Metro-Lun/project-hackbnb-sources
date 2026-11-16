@@ -1,0 +1,21 @@
+services:
+  back:
+    image: python:3
+    working_dir: /app
+    command: bash -c "pip3 install -r requirements.txt && gunicorn -b 0.0.0.0:5000 app:app"
+    volumes:
+      - ./back:/app
+    environment:
+      APP_ORIGIN_HOST: ${APP_ORIGIN_HOST}
+      STRIPE_API_KEY: ${STRIPE_API_KEY}
+      APP_ENV: ${APP_ENV}
+      JWT_SECRET: ${JWT_SECRET}
+
+  apache:
+    build:
+      context: .
+      dockerfile: apache/Dockerfile
+    ports:
+      - 80:80
+    depends_on:
+      - back
