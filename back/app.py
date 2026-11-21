@@ -46,6 +46,7 @@ def add_security_headers(res) :
 
    res.headers["Content-Security-Policy"] = "default-src 'self'; img-src 'self'; script-src 'self'"
    res.headers["X-Frame-Options"] = "DENY"
+   return res
 
 if __name__ == '__main__':
    app.run(

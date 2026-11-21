@@ -9,6 +9,7 @@ from api.rooms.rooms_models import Room
 from services.stripe import create_checkout, get_checkout_lines
 from .bookings_models import Booking
 from sqlalchemy.orm import joinedload
+from api.auth.auth_utils import login_required
 
 bookings_api = Blueprint('bookings', __name__)
 
