@@ -34,7 +34,7 @@ def login():
             "exp": now + timedelta(seconds=JWT_TTL),
         },
         JWT_SECRET,
-        JWT_ALGORITHM
+        algorithm=JWT_ALGORITHM
     )
 
     res.set_cookie("token", token, httponly=True, secure=IS_PROD, samesite="Strict")
