@@ -2,7 +2,6 @@ from flask import jsonify, Blueprint, request, send_from_directory, current_app
 from sqlalchemy import text
 from sqlalchemy.orm import joinedload
 from .rooms_models import Room
-from database.init import db
 
 rooms_api = Blueprint('rooms', __name__)
 
@@ -13,9 +12,11 @@ def list_rooms():
    List all available rooms with given category
    """
 
-   if "category" in request.args:
+   # paramétrage de requête
+   category = request.args.get("category")
+   if category:
       category = request.args["category"]
-      rooms = Room.query.filter(text(f"category = '{category}'")).all()
+      rooms = Room.query.filter(Room.category == category).all()
    else:
       rooms = Room.query.all()
 
