@@ -133,12 +133,37 @@ def confirm_booking_checkout(reference: str):
     booking = Booking.query.filter_by(reference=reference).first()
     if not booking:
         return {'error': 'Booking not found'}, 404
-    
-    if booking.checkout_confirmation_secret != request.json["confirmationSecret"]:
+
+    if booking.is_paid:
+        return jsonify({"success": True})
+
+    payload = request.get_json(silent=True)
+    confirmation_secret = (
+        payload.get("confirmationSecret") if isinstance(payload, dict) else None
+    )
+    if not isinstance(confirmation_secret, str) or not secrets.compare_digest(
+        booking.checkout_confirmation_secret, confirmation_secret
+    ):
         return {'error': 'Invalid confirmation secret'}, 422
 
-    booking.is_paid = True
+    updated = Booking.query.filter_by(
+        reference=reference,
+        checkout_confirmation_secret=confirmation_secret,
+        is_paid=False,
+    ).update(
+        {
+            Booking.is_paid: True,
+            Booking.checkout_confirmation_secret: secrets.token_urlsafe(32),
+        },
+        synchronize_session=False,
+    )
     db.session.commit()
+
+    # falling case if contexte has changed
+    if not updated:
+        is_paid = db.session.query(Booking.is_paid).filter_by(reference=reference).scalar()
+        if not is_paid:
+            return {'error': 'Invalid confirmation secret'}, 422
 
     return jsonify({
         "success": True,
