@@ -1,5 +1,4 @@
-import time
-import hashlib
+import secrets
 import string
 import random
 from datetime import date
@@ -90,9 +89,8 @@ def new_booking():
     # Generate random booking reference
     booking_reference = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8))
 
-    # Generate random confirmation secret
-    random_string = str(int(time.time())) # get current timestamp in seconds
-    checkout_confirmation_secret = hashlib.sha512(random_string.encode('utf-8')).hexdigest() # hash it with safe sha512
+    # Generate an unpredictable confirmation secret
+    checkout_confirmation_secret = secrets.token_urlsafe(32)
 
     # Create Stripe checkout session
     checkout_session = create_checkout(
