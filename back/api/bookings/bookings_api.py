@@ -1,5 +1,4 @@
-import time
-import hashlib
+import secrets
 import string
 import random
 from datetime import date
@@ -90,9 +89,8 @@ def new_booking():
     # Generate random booking reference
     booking_reference = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8))
 
-    # Generate random confirmation secret
-    random_string = str(int(time.time())) # get current timestamp in seconds
-    checkout_confirmation_secret = hashlib.sha512(random_string.encode('utf-8')).hexdigest() # hash it with safe sha512
+    # Generate an unpredictable confirmation secret
+    checkout_confirmation_secret = secrets.token_urlsafe(32)
 
     # Create Stripe checkout session
     checkout_session = create_checkout(
@@ -135,12 +133,37 @@ def confirm_booking_checkout(reference: str):
     booking = Booking.query.filter_by(reference=reference).first()
     if not booking:
         return {'error': 'Booking not found'}, 404
-    
-    if booking.checkout_confirmation_secret != request.json["confirmationSecret"]:
+
+    if booking.is_paid:
+        return jsonify({"success": True})
+
+    payload = request.get_json(silent=True)
+    confirmation_secret = (
+        payload.get("confirmationSecret") if isinstance(payload, dict) else None
+    )
+    if not isinstance(confirmation_secret, str) or not secrets.compare_digest(
+        booking.checkout_confirmation_secret, confirmation_secret
+    ):
         return {'error': 'Invalid confirmation secret'}, 422
 
-    booking.is_paid = True
+    updated = Booking.query.filter_by(
+        reference=reference,
+        checkout_confirmation_secret=confirmation_secret,
+        is_paid=False,
+    ).update(
+        {
+            Booking.is_paid: True,
+            Booking.checkout_confirmation_secret: secrets.token_urlsafe(32),
+        },
+        synchronize_session=False,
+    )
     db.session.commit()
+
+    # falling case if contexte has changed
+    if not updated:
+        is_paid = db.session.query(Booking.is_paid).filter_by(reference=reference).scalar()
+        if not is_paid:
+            return {'error': 'Invalid confirmation secret'}, 422
 
     return jsonify({
         "success": True,
